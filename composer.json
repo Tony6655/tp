@@ -1,7 +1,7 @@
 {
-    "name": "tony/tp",
+    "name": "thinkphp_tony/tp",
     "description": "Test",
-    "type": "library",
+    "type": "project",
     "require": {
         "php": ">=7.1.0"
     },
@@ -15,5 +15,14 @@
             "email": "tang.voo@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+	
+	"autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "psr-0": {
+            "": "extend/"
+        }
+    }
 }

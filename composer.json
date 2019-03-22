@@ -1,5 +1,5 @@
 {
-    "name": "tony/tp",
+    "name": "thinkphp_tony/tp",
     "description": "Test",
     "type": "library",
     "require": {
